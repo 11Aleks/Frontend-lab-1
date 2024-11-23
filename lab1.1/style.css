@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: darkcyan;
+}
+table {
+  width: 100%;
+  max-width: 1200px;
+  border-collapse: collapse;
+}
+.logo-row {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  font-family: "Londrina Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+img {
+  width: 400px;
+}
+.main-content,
+.sidebar {
+  vertical-align: top;
+  background-color: #ddd;
+  background-color: #ddd;
+}
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Londrina Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.date {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+.content-text {
+  padding: 10px;
+}
+.sidebar-heading {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0;
+  font-family: "Londrina Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sidebar p {
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 0 10px;
+}
+td {
+  padding: 10px;
+}
+.bordered {
+  border: 3px solid #ddd;
+  background-color: white;
+}
+
+@media (min-width: 1920px) {
+  .logo-row {
+    font-size: 48px;
+  }
+
+  img {
+    width: 700px;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+
+  .content-text {
+    padding: 30px;
+  }
+  p {
+    font-size: 24px;
+  }
+  .sidebar-heading {
+    font-size: 32px;
+  }
+  .sidebar p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1200px) {
+  table {
+    max-width: 100%;
+  }
+
+  .logo-row {
+    font-size: 32px;
+  }
+
+  img {
+    width: 400px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .sidebar-heading {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  table {
+    max-width: 100%;
+  }
+
+  .logo-row {
+    font-size: 20px;
+  }
+
+  img {
+    width: 200px;
+  }
+
+  .heading,
+  .sidebar-heading {
+    font-size: 18px;
+  }
+
+  .content-text,
+  .sidebar p {
+    font-size: 14px;
+  }
+
+  td {
+    padding: 10px;
+  }
+}
